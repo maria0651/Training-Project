@@ -1,0 +1,37 @@
+<!DOCTYPE>
+{% load staticfiles %}
+<HTML>
+<head>
+    <title>Home</title>
+
+    <a href="{% url 'home' %}" class="button">HOME</a>
+    <a href="{% url 'about' %}" class="button">ABOUT</a>
+    <a href="{% url 'gallery' %}" class="button">GALLERY</a>
+    <a href="{% url 'login' %}" class="button">LOGIN</a>
+    <a href="{% url 'signup' %}" class="button">SIGNUP</a>
+
+    <link rel="stylesheet" href="{% static "css/mycss.css" %}" />
+
+</head>
+<body>
+<h4>The Beauty of Lake Tahoe</h4>
+<img src="{% static "images/laketahoe.jpg" %}" />
+
+</body>
+<footer>Created by:Maria Afzal</footer>
+
+<style>
+a:link, a:visited {
+  background-color: purple;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: purple;
+}
+</style>
+</HTML>

@@ -1,0 +1,43 @@
+.button {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+
+h1{
+border: 2px solid grey;
+border-radius: 25px;
+}
+
+body {
+font-size: 26px;
+font-weight: bold;
+text-align: left;
+margin-bottom:100px;
+margin-left:10%;
+
+}
+
+footer {
+position:absolute;
+bottom:0;
+width: 20%;
+right:0;
+height:60px;   /* Height of the footer */
+font-size:14px;
+
+}
+
+img {
+float: right;
+margin: 0px 0px 15px 15px;
+border: 10px solid grey;
+}
+
